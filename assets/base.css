@@ -223,7 +223,7 @@
 
 @font-face {
   font-family: "Rochester";
-  src: url("Rochester-Regular.ttf") format("TrueType");
+  src: url("./Rochester-Regular.ttf") format("TrueType");
 }
 /* base */
 
