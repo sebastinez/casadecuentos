@@ -124,8 +124,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Envios",
+            "text": "<p>Cada libro se envia envuelto en paquetes de correo suizo.<\/p><p>Protegido con plastico burbuja.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -133,8 +133,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Calidad",
+            "text": "<p>Vendemos los mejores libros importados de Argentina y España.<\/p><p>Directamente de las editoriales.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -142,8 +142,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Showroom",
+            "text": "<p>Ofrecemos con cita previa la visita de nuestro showroom donde puede ver nuestra coleccion de libros.<\/p>",
             "link_label": "",
             "link": ""
           }
