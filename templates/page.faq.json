@@ -2,13 +2,57 @@
   "sections": {
     "main": {
       "type": "main-faq",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FAQ<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By accessing or using the Online Bookstore operated by us, you agree to be bound by the following terms and conditions (\"Terms and Conditions\").<\/p><p>We reserve the right to modify or revise these Terms and Conditions at any time and you agree to be bound by such modifications or revisions.<\/p><p>If you do not agree to these Terms and Conditions, you may not access or use our Online Bookstore.<\/p><p><strong>Products and Services<\/strong><\/p><p>The products and services available on the Online Bookstore are for personal, non-commercial use only. You may not use the Online Bookstore for any commercial purpose.<\/p><p><strong>Registration<\/strong><\/p><p>In order to purchase products or services on the Online Bookstore, you may be required to register and create an account. You are solely responsible for maintaining the confidentiality of your account information, including your password, and for all activities that occur under your account.<\/p><p><strong>Orders<\/strong><\/p><p>All orders are subject to our acceptance. We may refuse to accept any order in our sole discretion.<\/p><p>We will confirm our acceptance of your order by sending you an email that confirms that your order has been shipped (\"Shipping Confirmation\"). The contract between us will only be formed when we send you the Shipping Confirmation.<\/p><p><strong>Payment<\/strong><\/p><p>We accept payment by credit card or PayPal.<\/p><p><strong>Shipping and Delivery<\/strong><\/p><p>Products will be shipped to the shipping address indicated in your order. Shipping and delivery dates are estimates only and cannot be guaranteed. We are not liable for any delays in shipments.<\/p><p><strong>Returns and Refunds<\/strong><\/p><p>You may return most new, unopened items within 30 days of delivery for a full refund. We will also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).<\/p><p>If you need to return an item, please contact us at [email protected] We will respond quickly with instructions for how to return items from your order.<\/p>"
+          }
+        },
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-0",
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-1",
+        "template--14427159461943__f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b-166832668748e5f008-2"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f7a291bd-3a0b-4362-bb33-55cd0cdf3b2b"
   ]
 }
