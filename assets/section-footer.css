@@ -65,8 +65,9 @@
   }
 
   .footer__content-bottom-wrapper {
-    flex-wrap: wrap;
-    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
