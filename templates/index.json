@@ -107,7 +107,7 @@
           "type": "column",
           "settings": {
             "title": "Envios",
-            "text": "<p>Cada libro se envia envuelto en paquetes de correo suizo.<\/p><p>Protegido con plastico burbuja.<\/p>",
+            "text": "<p>Cada libro se envia en paquetes de cartón con el correo suizo.<\/p><p>Protegido con plastico burbuja para evitar daños.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -125,7 +125,7 @@
           "type": "column",
           "settings": {
             "title": "Showroom",
-            "text": "<p>Ofrecemos con cita previa la visita de nuestro showroom donde puede ver nuestra coleccion de libros.<\/p>",
+            "text": "<p>Ofrecemos con cita previa, una visita a nuestro showroom donde puede ver nuestro catalogo.<\/p>",
             "link_label": "",
             "link": ""
           }
