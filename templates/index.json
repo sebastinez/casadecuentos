@@ -78,7 +78,7 @@
       "settings": {
         "title": "Catálogo",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "frontpage",
@@ -106,7 +106,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Envios",
+            "title": "Envíos",
             "text": "<p>Cada libro se envia en paquetes de cartón con el correo suizo.<\/p><p>Protegido con plastico burbuja para evitar daños.<\/p>",
             "link_label": "",
             "link": ""
