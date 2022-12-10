@@ -145,8 +145,8 @@
                                     stroke-linejoin="round" />
                                 </svg>
 
-                              <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
-                              <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
+                              {%- comment -%} <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
+                              <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span> {%- endcomment -%}
                             </label>
                           </li>
                         {%- endfor -%}
@@ -190,8 +190,8 @@
                                     stroke-linejoin="round" />
                                 </svg>
 
-                              <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
-                              <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
+                              {%- comment -%} <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
+                              <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == 1 %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span> {%- endcomment -%}
                             </label>
                           </li>
                         {%- endfor -%}
@@ -347,7 +347,7 @@
             </div>
           {%- endif -%}
           <div class="product-count light" role="status">
-            <h2 class="product-count__text text-body">
+            {%- comment -%} <h2 class="product-count__text text-body">
               <span id="ProductCountDesktop">
                 {%- if results.results_count -%}
                   {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
@@ -357,7 +357,7 @@
                   {{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
                 {%- endif -%}
               </span>
-            </h2>
+            </h2> {%- endcomment -%}
             <div class="loading-overlay__spinner">
               <svg
                 aria-hidden="true"
@@ -452,7 +452,7 @@
                     {{ 'products.facets.filter_button' | t }}
                   {%- endif -%}
                 </h2>
-                <p class="mobile-facets__count">
+                {%- comment -%} <p class="mobile-facets__count">
                     {%- if results.results_count -%}
                       {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
                     {%- elsif results.products_count == results.all_products_count -%}
@@ -460,7 +460,7 @@
                     {%- else -%}
                       {{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
                     {%- endif -%}
-                </p>
+                </p> {%- endcomment -%}
               </div>
             </div>
             <div class="mobile-facets__main has-submenu gradient">
@@ -514,8 +514,8 @@
                                     <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                   </svg>
 
-                                <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
-                                <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span>
+                                {%- comment -%} <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
+                                <span class="visually-hidden">{{ value.label | escape }} ({% if value.count == '1' %}{{ 'products.facets.product_count_simple.one' | t: count: value.count }}{% else %}{{ 'products.facets.product_count_simple.other' | t: count: value.count }}{% endif %})</span> {%- endcomment -%}
                               </label>
                             </li>
                           {%- endfor -%}
@@ -713,7 +713,7 @@
     </facet-filters-form>
   {%- endif -%}
   <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} medium-hide large-up-hide{% endif %}" role="status">
-    <h2 class="product-count__text text-body">
+    {%- comment -%} <h2 class="product-count__text text-body">
       <span id="ProductCount">
         {%- if results.results_count -%}
           {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
@@ -723,7 +723,7 @@
           {{ 'products.facets.product_count' | t: product_count: results.products_count, count: results.all_products_count }}
         {%- endif -%}
       </span>
-    </h2>
+    </h2> {%- endcomment -%}
     <div class="loading-overlay__spinner">
       <svg
         aria-hidden="true"
