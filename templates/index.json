@@ -99,64 +99,10 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Envíos",
-            "text": "<p>Cada libro se envia en paquetes de cartón con el correo suizo.<\/p><p>Protegido con plastico burbuja para evitar daños.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Calidad",
-            "text": "<p>Vendemos los mejores libros importados de Argentina y España.<\/p><p>Directamente de las editoriales.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Showroom",
-            "text": "<p>Ofrecemos con cita previa, una visita a nuestro showroom donde puede ver nuestro catalogo.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "b1a38cd6-68ed-4ad5-b1e2-4232b92b7883",
-    "featured_collection",
-    "multicolumn"
+    "featured_collection"
   ]
 }
